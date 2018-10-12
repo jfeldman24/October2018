@@ -23,11 +23,29 @@ public class Fall2018 {
         return a%b;
     }
     
+    static class fraction {
+        private int num, den;
+        public fraction(int a, int b) {
+            num = a;
+            den = b;
+        }
+        public String toString() {
+            return num + "/" + den;
+        }
+        public int gcd(int a, int b) {
+            if(b == 0)
+                return a;
+            return gcd(b,a%b);
+        }
+        
+    }
+    
     public static void main(String[] args) {
         double a = add(1,2);
         double b = sub(4,1);
         int c = mod(18,4);
-        System.out.println(a + " " + b + " " + c);
+        fraction d = new fraction(4,17);
+        System.out.println(a + " " + b + " " + c + " " + d);
     }
     
     public static double mult(double a, double b) {
