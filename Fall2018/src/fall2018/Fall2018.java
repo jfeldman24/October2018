@@ -19,6 +19,10 @@ public class Fall2018 {
         return a-b;
     }
     
+    public static double mod(int a, int b) {
+        return a%b;
+    }
+    
     public static void main(String[] args) {
         double a = add(1,2);
         double b = sub(4,1);
