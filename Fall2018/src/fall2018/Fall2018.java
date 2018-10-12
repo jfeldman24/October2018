@@ -42,6 +42,11 @@ public class Fall2018 {
             den *= b.den;
         }
         
+        public void div(fraction b) {
+            num *= b.den;
+            den *= b.num;
+        }
+        
     }
     
     public static void main(String[] args) {
