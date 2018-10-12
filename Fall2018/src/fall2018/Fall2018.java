@@ -49,6 +49,11 @@ public class Fall2018 {
         public int lcm(int a, int b) {
             return a*b/gcd(a,b);
         }
+        public int fact(int a) {
+            if (a == 1)
+                return 1;
+            return a*fact(a-1);
+        }
         
     }
     
