@@ -15,9 +15,14 @@ public class Fall2018 {
         return a+b;
     }
     
+    public static double sub(double a, double b) {
+        return a-b;
+    }
+    
     public static void main(String[] args) {
         double a = add(1,2);
-        System.out.println(a);
+        double b = sub(4,1);
+        System.out.println(a + " " + b);
     }
     
 }
