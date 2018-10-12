@@ -46,6 +46,9 @@ public class Fall2018 {
             num *= b.den;
             den *= b.num;
         }
+        public int lcm(int a, int b) {
+            return a*b/gcd(a,b);
+        }
         
     }
     
