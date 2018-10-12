@@ -11,11 +11,13 @@ package fall2018;
  */
 public class Fall2018 {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static double add(double a, double b) {
+        return a+b;
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        double a = add(1,2);
+        System.out.println(a);
     }
     
 }
