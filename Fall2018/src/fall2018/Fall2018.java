@@ -29,4 +29,8 @@ public class Fall2018 {
         System.out.println(a + " " + b);
     }
     
+    public static double mult(double a, double b) {
+        return a*b;
+    }
+    
 }
