@@ -37,6 +37,10 @@ public class Fall2018 {
                 return a;
             return gcd(b,a%b);
         }
+        public void mult(fraction b) {
+            num *= b.num;
+            den *= b.den;
+        }
         
     }
     
